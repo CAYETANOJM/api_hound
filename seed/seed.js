@@ -49,7 +49,7 @@ const servicios = [
     precio: 220,
     duracionEstimada: '15 minutos',
     disponibilidad: true,
-    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734226/desparasitacion_t1nham.jpg|',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734226/desparasitacion_t1nham.jpg',
     recomendaciones: [
       'Informar peso aproximado',
       'Seguir calendario sugerido por el veterinario'
@@ -221,7 +221,7 @@ const veterinarios = [
     experiencia: '9 años de experiencia en diagnóstico clínico y seguimiento preventivo.',
     horario: 'Lunes a viernes de 9:00 a 17:00',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Dra+Sofia+Ramirez',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735008/doc2_mlnzqn.jpg',
     descripcionProfesional: 'Especialista en medicina interna con enfoque en prevención, nutrición y acompañamiento integral para perros y gatos.'
   },
   {
