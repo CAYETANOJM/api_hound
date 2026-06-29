@@ -15,7 +15,7 @@ const servicios = [
     precio: 350,
     duracionEstimada: '30 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Consulta+general',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734151/consulta_general_lbot9r.jpg',
     recomendaciones: [
       'Llevar cartilla de vacunación',
       'Acudir con ayuno solo si el veterinario lo indicó'
@@ -32,7 +32,7 @@ const servicios = [
     precio: 280,
     duracionEstimada: '20 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Vacunacion',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782733961/vacunacion_oqvbht.jpg',
     recomendaciones: [
       'Presentar historial clínico',
       'Evitar baño 24 horas antes y después'
@@ -49,7 +49,7 @@ const servicios = [
     precio: 220,
     duracionEstimada: '15 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Desparasitacion',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734226/desparasitacion_t1nham.jpg|',
     recomendaciones: [
       'Informar peso aproximado',
       'Seguir calendario sugerido por el veterinario'
@@ -66,7 +66,7 @@ const servicios = [
     precio: 450,
     duracionEstimada: '60 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Estetica+canina',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734312/estetica_canina_motpuc.jpg',
     recomendaciones: [
       'Cepillar antes de acudir si es posible',
       'Avisar si la mascota es nerviosa'
@@ -83,7 +83,7 @@ const servicios = [
     precio: 420,
     duracionEstimada: '50 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Bano+medicado',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734383/ba%C3%B1o_medicado_oqgf0r.jpg',
     recomendaciones: [
       'No aplicar productos caseros antes de la cita',
       'Seguir indicaciones posteriores de secado y cepillado'
@@ -100,7 +100,7 @@ const servicios = [
     precio: 120,
     duracionEstimada: '15 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Corte+de+unas',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734445/corte_u%C3%B1as_wrnway.jpg',
     recomendaciones: [
       'Llevar correa o transportadora',
       'Premiar a la mascota después del servicio'
@@ -117,7 +117,7 @@ const servicios = [
     precio: 900,
     duracionEstimada: '90 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Limpieza+dental',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734522/limpieza_dental_flok0s.jpg',
     recomendaciones: [
       'Confirmar si requiere ayuno',
       'Llevar estudios si fueron solicitados'
@@ -134,7 +134,7 @@ const servicios = [
     precio: 750,
     duracionEstimada: 'Variable según el caso',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Urgencias',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734579/urgencias_fqkybg.jpg',
     recomendaciones: [
       'Llamar antes de acudir si la situación lo permite',
       'Informar síntomas y tiempo de evolución'
@@ -151,7 +151,7 @@ const servicios = [
     precio: 2500,
     duracionEstimada: '2 horas',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Cirugia+menor',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734663/cirugia_menor_srhz9i.jpg',
     recomendaciones: [
       'Presentarse con estudios si fueron indicados',
       'Seguir protocolo de ayuno preoperatorio'
@@ -168,7 +168,7 @@ const servicios = [
     precio: 1800,
     duracionEstimada: 'Por día',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Hospitalizacion',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734717/hospitalizacion_uuaknz.jpg',
     recomendaciones: [
       'Dejar datos de contacto actualizados',
       'Consultar horarios de visita disponibles'
@@ -185,7 +185,7 @@ const servicios = [
     precio: 180,
     duracionEstimada: '30 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Paseo+de+mascotas',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734769/paseo_mascotas_qspvjg.jpg',
     recomendaciones: [
       'Indicar si usa arnés o correa especial',
       'Avisar si convive bien con otros animales'
@@ -202,7 +202,7 @@ const servicios = [
     precio: 650,
     duracionEstimada: '45 minutos',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Entrenamiento+basico',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734835/entrenamiento_basico_dixznj.jpg',
     recomendaciones: [
       'Llevar premios o croquetas favoritas',
       'Asistir con una persona que conviva a diario con la mascota'
@@ -230,7 +230,7 @@ const veterinarios = [
     experiencia: '11 años atendiendo procedimientos ambulatorios, trauma y emergencias veterinarias.',
     horario: 'Lunes a sábado de 10:00 a 18:00',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Dr+Mateo+Hernandez',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782734948/doc1_pbwo0n.jpg',
     descripcionProfesional: 'Médico veterinario con amplia experiencia en urgencias, estabilización de pacientes y cirugía de tejidos blandos.'
   },
   {
@@ -239,7 +239,7 @@ const veterinarios = [
     experiencia: '7 años en tratamiento de alergias, dermatitis y cuidado de piel y pelaje.',
     horario: 'Martes a sábado de 11:00 a 19:00',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Dra+Valeria+Cruz',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735008/doc2_mlnzqn.jpg',
     descripcionProfesional: 'Apoya casos dermatológicos frecuentes y diseña rutinas de higiene adaptadas a la condición del paciente.'
   },
   {
@@ -248,7 +248,7 @@ const veterinarios = [
     experiencia: '8 años atendiendo conejos, aves, hámsters y mascotas de manejo especial.',
     horario: 'Miércoles a domingo de 9:00 a 15:00',
     disponibilidad: true,
-    imagen: 'https://placehold.co/600x400?text=Dr+Diego+Torres',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735077/doc3_mgs2aa.jpg',
     descripcionProfesional: 'Enfocado en bienestar, nutrición y atención preventiva de animales pequeños y especies no convencionales.'
   }
 ];
@@ -269,7 +269,7 @@ const mascotas = [
       'Paseo de mascotas',
       'Entrenamiento básico'
     ],
-    imagen: 'https://placehold.co/600x400?text=Perros'
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735159/perro_xmlole.jpg'
   },
   {
     nombre: 'Gatos',
@@ -285,7 +285,7 @@ const mascotas = [
       'Desparasitación',
       'Limpieza dental'
     ],
-    imagen: 'https://placehold.co/600x400?text=Gatos'
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735202/gato_uqermj.jpg'
   },
   {
     nombre: 'Conejos',
@@ -299,7 +299,7 @@ const mascotas = [
       'Consulta general',
       'Desparasitación'
     ],
-    imagen: 'https://placehold.co/600x400?text=Conejos'
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735257/conejo_prurrt.jpg'
   },
   {
     nombre: 'Aves',
@@ -313,7 +313,7 @@ const mascotas = [
       'Consulta general',
       'Urgencias'
     ],
-    imagen: 'https://placehold.co/600x400?text=Aves'
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735310/aves_zugvyt.jpg'
   },
   {
     nombre: 'Hámsters',
@@ -327,7 +327,7 @@ const mascotas = [
       'Consulta general',
       'Urgencias'
     ],
-    imagen: 'https://placehold.co/600x400?text=Hamsters'
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735355/hamsters_ufunpa.jpg'
   }
 ];
 
@@ -336,7 +336,7 @@ const promociones = [
     titulo: 'Paquete cachorro sano',
     descripcion: 'Incluye consulta general, desparasitación y primera vacuna a precio preferencial.',
     descuento: '15%',
-    imagen: 'https://placehold.co/600x400?text=Promo+Cachorro+Sano',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735465/sano_cssa0d.jpg',
     vigencia: new Date('2028-12-31T23:59:59.000Z'),
     servicioRelacionado: 'Vacunación',
     activo: true
@@ -345,7 +345,7 @@ const promociones = [
     titulo: 'Martes de sonrisa limpia',
     descripcion: 'Descuento especial en limpieza dental durante los martes del mes.',
     descuento: '20%',
-    imagen: 'https://placehold.co/600x400?text=Promo+Limpieza+Dental',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735543/sonrisa_omf6tw.jpg',
     vigencia: new Date('2028-12-31T23:59:59.000Z'),
     servicioRelacionado: 'Limpieza dental',
     activo: true
@@ -354,7 +354,7 @@ const promociones = [
     titulo: 'Spa para peludos',
     descripcion: 'Estética canina y corte de uñas con precio preferencial el mismo día.',
     descuento: '10%',
-    imagen: 'https://placehold.co/600x400?text=Promo+Spa+Peludos',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735641/spa_x4nedv.jpg',
     vigencia: new Date('2028-12-31T23:59:59.000Z'),
     servicioRelacionado: 'Estética canina',
     activo: true
@@ -363,7 +363,7 @@ const promociones = [
     titulo: 'Promo vencida de ejemplo',
     descripcion: 'Promoción inactiva para validar que el endpoint solo devuelva vigentes.',
     descuento: '5%',
-    imagen: 'https://placehold.co/600x400?text=Promo+Vencida',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735767/promo_dihcvg.jpg',
     vigencia: new Date('2024-12-31T23:59:59.000Z'),
     servicioRelacionado: 'Consulta general',
     activo: false
@@ -375,7 +375,7 @@ const consejos = [
     titulo: 'Vacunas al día en perros',
     categoria: 'Prevención',
     descripcion: 'Mantener el esquema de vacunación completo ayuda a reducir el riesgo de enfermedades infecciosas.',
-    imagen: 'https://placehold.co/600x400?text=Consejo+Perros+Vacunas',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735834/vacuna_pk7l3b.jpg',
     recomendacion: 'Agenda revisiones semestrales y conserva la cartilla en un lugar accesible.',
     nivelImportancia: 'Alta',
     mascotaRelacionada: 'Perros'
@@ -384,7 +384,7 @@ const consejos = [
     titulo: 'Control del estrés en gatos',
     categoria: 'Bienestar',
     descripcion: 'Los gatos suelen manifestar estrés con cambios en apetito, escondite excesivo o marcaje.',
-    imagen: 'https://placehold.co/600x400?text=Consejo+Gatos+Estres',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735881/control_e57xfh.jpg',
     recomendacion: 'Mantén rutinas estables y utiliza enriquecimiento ambiental como rascadores y repisas.',
     nivelImportancia: 'Media',
     mascotaRelacionada: 'Gatos'
@@ -393,7 +393,7 @@ const consejos = [
     titulo: 'Fibra adecuada para conejos',
     categoria: 'Nutrición',
     descripcion: 'Una dieta baja en fibra puede afectar la digestión y el desgaste natural de los dientes.',
-    imagen: 'https://placehold.co/600x400?text=Consejo+Conejos+Fibra',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735929/fibra_vevbly.jpg',
     recomendacion: 'Prioriza heno fresco y complementa con vegetales indicados por el veterinario.',
     nivelImportancia: 'Alta',
     mascotaRelacionada: 'Conejos'
@@ -402,7 +402,7 @@ const consejos = [
     titulo: 'Signos de alerta en aves',
     categoria: 'Urgencias',
     descripcion: 'Respirar con dificultad, estar emboladas o dejar de vocalizar puede indicar un problema serio.',
-    imagen: 'https://placehold.co/600x400?text=Consejo+Aves+Urgencias',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782735983/signos_vzwmui.jpg',
     recomendacion: 'Busca atención veterinaria rápida y evita automedicar.',
     nivelImportancia: 'Alta',
     mascotaRelacionada: 'Aves'
@@ -411,7 +411,7 @@ const consejos = [
     titulo: 'Limpieza del hábitat del hámster',
     categoria: 'Higiene',
     descripcion: 'La acumulación de humedad y residuos favorece malos olores y enfermedades.',
-    imagen: 'https://placehold.co/600x400?text=Consejo+Hamsters+Higiene',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782736035/limpieza_ilp9jr.jpg',
     recomendacion: 'Limpia el sustrato de forma regular y evita productos perfumados fuertes.',
     nivelImportancia: 'Media',
     mascotaRelacionada: 'Hámsters'
@@ -420,7 +420,7 @@ const consejos = [
     titulo: 'Cuidado dental preventivo en perros y gatos',
     categoria: 'Odontología',
     descripcion: 'El sarro y la inflamación de encías pueden avanzar sin síntomas evidentes al inicio.',
-    imagen: 'https://placehold.co/600x400?text=Consejo+Dental+Perros+Gatos',
+    imagen: 'https://res.cloudinary.com/dvsqq5asz/image/upload/v1782736110/pg_qfgbnd.jpg',
     recomendacion: 'Pregunta por limpieza dental si notas mal aliento persistente o dificultad para masticar.',
     nivelImportancia: 'Alta',
     mascotaRelacionada: 'Perros'
